@@ -32,7 +32,7 @@ const Signup = () => {
                                 <input onChange={(e)=>setPassword(e.target.value)} className='p-3 my-2 bg-gray-700 rounded'type="password" placeholder='Password' autoComplete='crrent-password' />
                                 <button type='submit' className='bg-red-600 py-3 my-6 rounded font-bold'>Sign Up</button>
                                 <div className='flex justify-between items-center text-sm text-gray-500'>
-                                    <p><input className='mr-2' type="checkbox" />Remember me</p>
+                                    <p><input className='mr-2' id='me' type="checkbox" /><label htmlFor="me">Remember me</label></p>
                                     <p>Need Help?</p>
                                 </div>
                                 <p className='py-6'><span className='text-gray-400'>Already subscribed to Netflix?</span>
